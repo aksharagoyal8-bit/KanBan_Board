@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        MyTodoList.com
+      <p class="instructions">-Double click to rename the task</p>
+    </nav>
+    <div class="container">
+        <div class="board todo">
+            <div class="heading">
+                <h1>To Do</h1>
+            </div>
+             <button class="add todb">+</button>
+            <div class="taskbox">
+                <div class="task" draggable="true">Task 1</div>
+                <div class="task" draggable="true">Task 2</div>
+                <div class="task" draggable="true">Task 3</div>
+            </div>
+        </div>
+
+        <div class="board inp">
+            <div class="heading">
+                <h1>In Progress</h1>
+            </div>
+            
+                <button class="add inpro">+</button>
+            
+        </div>
+        <div class="board done">
+            <div class="heading">
+                <h1>Done</h1>
+            </div>
+            
+                <button class="add addone">+</button>
+            
+        </div>
+    </div>
+     <button class="useme"><i class="fa fa-trash-o" style="font-size:36px"></i></button> 
+    
+    <script src="script.js"></script>
+</body>
+</html>
